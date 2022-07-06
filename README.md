@@ -5,9 +5,9 @@
 
 <p align="center">
   <!-- <a href="https://event-platform-sage.vercel.app/">Link</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; -->
-  <a href="#sobre">Sobre</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#challenge">Challenge</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#tecnologias">Tecnologias</a> 
+  <a href="#-sobre">Sobre</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-challenge">Challenge</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a> 
 </p>
 
 ---
@@ -30,21 +30,21 @@ Período: 22 de junho a 02 de agosto;
 As ferramentas e tecnologias eram de livre escolha. Eu escolhi desenvolver o projeto com:
 
 <ul>
-  <li>🔹 React</li>
-  <li>🔹 React router dom</li>
-  <li>🔹 Styled components</li>
+  <li>React</li>
+  <li>React router dom</li>
+  <li>Styled components</li>
 </ul>
 
 ## 🏃 Sprints
 
 <ul>
   <li>
-    🔸 Semana 1 - 
+    Semana 1 - 
     <a href="https://trello.com/b/Ie7GgNOS/challenge-front-end-adopet-semana-1-mobile-first">Trello</a>
   </li>
-  <li>🔸Semana 2</li>
-  <li>🔸Semana 3</li>
-  <li>🔸 Semana 4</li>
+  <li>Semana 2</li>
+  <li>Semana 3</li>
+  <li>Semana 4</li>
 </ul>
 
 <!-- 
