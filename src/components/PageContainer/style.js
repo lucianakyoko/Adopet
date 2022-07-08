@@ -11,8 +11,8 @@ export const PageWrapper = styled.div`
   background-position: top left;
   background-repeat: no-repeat;
   background-size: 35.2rem;
-  background-color: ${colors.primaryColor};
-
+  background-color: ${props => props.color};
+ 
   position: relative;
   
   @media screen and (min-width: 700px) {
@@ -29,7 +29,7 @@ export const PageContentWrapper = styled.div `
   background-position: 105% 15%;
 
   @media screen and (min-width: 700px) {
-    background-position: 100% 0%;
+    background-position: 100% 48%;
     background-size: 13rem;
   }
 `
