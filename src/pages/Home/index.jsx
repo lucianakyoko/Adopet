@@ -21,7 +21,7 @@ export function Home() {
           <p>Que tal mudar sua vida adotando seu novo melhor amigo? Vem com a gente!</p>
         </HomeParagraphWrapper>
         <ButtonsWrapper>
-          <Link to="#">
+          <Link to="/login">
             Já tenho conta
           </Link>
           <Link to="/cadastro">
