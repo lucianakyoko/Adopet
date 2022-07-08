@@ -7,7 +7,7 @@ import logo from '../../assets/images/logoBigBlue.png';
 import {
   RegistrationContainer,
   RegistrationParagraphWrapper,
-  FormWrapper
+  Form
 } from './style';
 
 export function Registration() {
@@ -22,7 +22,7 @@ export function Registration() {
           <p>Então, antes de buscar seu melhor amigo, precisamos de alguns dados:</p>
         </RegistrationParagraphWrapper>
 
-        <FormWrapper>
+        <Form>
           <InputField 
             id={"email"}
             type={"text"}
@@ -49,7 +49,7 @@ export function Registration() {
           />
         
           <Button type="submit">Cadastrar</Button>
-        </FormWrapper>
+        </Form>
 
       </RegistrationContainer>
     </PageContainer>
