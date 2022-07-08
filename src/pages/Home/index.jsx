@@ -1,7 +1,9 @@
+import { Link } from 'react-router-dom';
 import { PageContainer } from "../../components/PageContainer";
 import logo from '../../assets/images/logoBigWhite.png';
 import illustration from '../../assets/images/illustration.svg';
 
+import { colors } from '../../styles/colors';
 import {
   HomeContainer,
   HomeParagraphWrapper,
@@ -11,7 +13,7 @@ import {
 
 export function Home() {
   return(
-    <PageContainer>
+    <PageContainer bgColor={colors.primaryColor} className="right">
       <HomeContainer>
         <img src={logo} alt="Logo Adopet" />
         <HomeParagraphWrapper>
@@ -19,8 +21,12 @@ export function Home() {
           <p>Que tal mudar sua vida adotando seu novo melhor amigo? Vem com a gente!</p>
         </HomeParagraphWrapper>
         <ButtonsWrapper>
-          <span>Já tenho conta</span>
-          <span>Quero me cadastrar</span>
+          <Link to="#">
+            Já tenho conta
+          </Link>
+          <Link to="/cadastro">
+            Quero me cadastrar
+          </Link>
         </ButtonsWrapper>
 
         <IllustrationWrapper>

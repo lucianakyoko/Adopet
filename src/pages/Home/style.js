@@ -77,7 +77,7 @@ export const ButtonsWrapper = styled.div `
   align-items: center;
   gap: 1.6rem;
 
-  span {
+  a {
     width:  100%;
     padding:  .8rem 0;
 
