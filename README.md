@@ -40,8 +40,9 @@ As ferramentas e tecnologias eram de livre escolha. Eu escolhi desenvolver o pro
 
 <ul>
   <li>
-    Semana 1 - 
+    Semana 1 - Criando um site: a metodologia mobile-first
     <a href="https://trello.com/b/Ie7GgNOS/challenge-front-end-adopet-semana-1-mobile-first">Trello</a>
+    <span>✔️</span>
   </li>
   <li>Semana 2</li>
   <li>Semana 3</li>
@@ -50,5 +51,6 @@ As ferramentas e tecnologias eram de livre escolha. Eu escolhi desenvolver o pro
 
 <!-- 
 :heavy_check_mark: 
+✔️
 :x:
 -->
