@@ -10,8 +10,8 @@ export function Router() {
     <Routes>
       <Route path="/" element={<Home />}/>
       <Route path="cadastro" element={<Registration />}/>
-      <Route path="/login" element={<Login />} />
-      <Route path="/animais" element={<Animals />} />
+      <Route path="login" element={<Login />} />
+      <Route path="animais" element={<Animals />} />
     </Routes>
   )
 }
