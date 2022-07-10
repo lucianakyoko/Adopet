@@ -12,7 +12,7 @@ import {
 
 export function Header({user}) {
   return (
-    <HeaderContainer>
+    <HeaderContainer user={user}>
       <IconsWrapper>
         <Logo></Logo>
         <Link to="/">

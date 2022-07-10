@@ -6,10 +6,10 @@ import {
   PageContentWrapper,
 } from './style';
 
-export function PageContainer({ children, bgColor, className }) {
+export function PageContainer({ user, children, bgColor, className }) {
   return(
     <PageWrapper color={bgColor} className={className}>
-      <Header />
+      <Header user={user}/>
       <PageContentWrapper>
         { children }
       </PageContentWrapper>
