@@ -38,7 +38,7 @@ export function Login() {
 
           <BtnWrapper>
             <a href="#">Esqueci minha senha</a>
-            <Button type="submit">Entrar</Button>
+            <Button>Entrar</Button>
           </BtnWrapper>
         </Form>
       </LoginContainer>
