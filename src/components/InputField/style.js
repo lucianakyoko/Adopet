@@ -2,11 +2,31 @@ import styled from "styled-components";
 import { colors } from "../../styles/colors";
 
 export const InputFieldContainer = styled.div `
-  width: 31.2rem;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1.2rem;
+
+  &.message-profile {
+    align-items: flex-start;
+    gap:  .8rem;
+
+    label {
+      color: ${colors.primaryColor};
+      font-weight: 600;
+    }
+    input {
+      padding: 1.2rem 1.6rem;
+      border-radius: .8rem;
+      text-align: left;
+
+      &::placeholder {
+        font-size: 1.4rem;
+        text-align: left;
+      }
+    }
+  }
 
   label {
     color: ${colors.detailsColor500};
@@ -35,7 +55,6 @@ export const InputFieldContainer = styled.div `
     }
 
     @media screen and (min-width: 700px) {
-      width: 34.4rem;
       gap: 8rem;
 
       input {
@@ -46,7 +65,6 @@ export const InputFieldContainer = styled.div `
     }
 
     @media screen and (min-width: 1100px) {
-      width: 55.2rem;
       font-size: 1.6rem;
 
       input {
