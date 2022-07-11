@@ -15,11 +15,11 @@ export function Header({user}) {
     <HeaderContainer user={user}>
       <IconsWrapper>
         <Logo></Logo>
-        <Link to="/">
+        <Link to="/animais">
           <img src={homeIcon} alt="ícone casa" />
         </Link>
 
-        <Link to="#">
+        <Link to="/mensagem">
           <img src={envelopIcon} alt="Ícone envelope" />
         </Link>
       </IconsWrapper>

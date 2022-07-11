@@ -7,6 +7,7 @@ import {
   NameAndDetailsWrapper,
   LocationAndChatWrapper
 } from './style';
+import { Link } from 'react-router-dom';
 
 export function Animal() {
   return(
@@ -26,10 +27,12 @@ export function Animal() {
 
         <LocationAndChatWrapper>
           <span>Rio de Janeiro - RJ</span>
-          <div>
-            <img src={chatIcon} alt="Ícone chat" />
-            <span>Falar com responsável</span>
-          </div>
+          <Link to='/mensagem'>
+            <div>
+              <img src={chatIcon} alt="Ícone chat" />
+              <span>Falar com responsável</span>
+            </div>
+          </Link>
         </LocationAndChatWrapper>
       </AnimalInfosWrapper>
     </AnimalContainer>

@@ -4,6 +4,7 @@ import { Home } from "./pages/Home";
 import { Registration } from "./pages/Registration";
 import { Login } from './pages/Login';
 import { Animals } from "./pages/Animals";
+import { Message } from './pages/Message';
 
 export function Router() {
   return(
@@ -12,6 +13,7 @@ export function Router() {
       <Route path="cadastro" element={<Registration />}/>
       <Route path="login" element={<Login />} />
       <Route path="animais" element={<Animals />} />
+      <Route path="mensagem" element={<Message />} />
     </Routes>
   )
 }
