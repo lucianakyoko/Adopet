@@ -82,6 +82,8 @@ export const ParagraphWrapper = () => {
 
 export const FormWrapper = () => {
   return `
+    width: 31.2rem;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -89,5 +91,12 @@ export const FormWrapper = () => {
 
     padding: 3.2rem 0 4rem 0;
     margin-bottom: 10rem;
+    
+    @media screen and (min-width: 700px) {
+      width: 34.4rem;
+    }
+    @media screen and (min-width: 1100px) {
+      width: 55.2rem;
+    }
   `
 }
