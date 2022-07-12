@@ -7,6 +7,7 @@ import {
   IntroWrapper
 } from './style';
 import { Textarea } from "../../components/Textarea";
+import { Button } from "../../components/Button";
 
 export function Message() {
   return(
@@ -44,6 +45,8 @@ export function Message() {
             placeholder={"Escreva sua mensagem"}
             label={"Mensagem"}
           />
+
+          <Button>Enviar</Button>
         </Form>
       </MessageContainer>
     </PageContainer>
