@@ -14,7 +14,7 @@ export function Header({user}) {
   return (
     <HeaderContainer user={user}>
       <IconsWrapper>
-        <Logo></Logo>
+        <Link to="/"><Logo></Logo></Link>
         <Link to="/animais">
           <img src={homeIcon} alt="ícone casa" />
         </Link>
@@ -24,7 +24,7 @@ export function Header({user}) {
         </Link>
       </IconsWrapper>
 
-      {user && <img src={userIcon} alt='Ícone usuário' />}
+      {user && <Link to="/perfil"><img src={userIcon} alt='Ícone usuário' /></Link>}
     </HeaderContainer>
   )
 }
