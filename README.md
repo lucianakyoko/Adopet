@@ -47,7 +47,7 @@ As ferramentas e tecnologias eram de livre escolha. Eu escolhi desenvolver o pro
   <li>
     Semana 2 - Avançando no projeto: adaptando para telas maiores
     <a href="https://trello.com/b/qjZU9naU/challenge-front-end-adopet-semana-2-responsividade">Trello</a>
-    <!-- <span>✔️</span> -->
+    <span>✔️</span>
   </li>
   <li>Semana 3</li>
   <li>Semana 4</li>
