@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { colors } from "../../styles/colors";
+import profileIcon from '../../assets/icons/icon-user.svg';
 
 export const InputFieldContainer = styled.div `
   width: 100%;
@@ -8,6 +9,10 @@ export const InputFieldContainer = styled.div `
   align-items: center;
   gap: 1.2rem;
 
+  p {
+    display: none;
+  }
+
   &.message-profile {
     align-items: flex-start;
     gap:  .8rem;
@@ -15,6 +20,10 @@ export const InputFieldContainer = styled.div `
     label {
       color: ${colors.primaryColor};
       font-weight: 600;
+      
+      div {
+        display: none;
+      }
     }
     input {
       padding: 1.2rem 1.6rem;
@@ -24,6 +33,50 @@ export const InputFieldContainer = styled.div `
       &::placeholder {
         font-size: 1.4rem;
         text-align: left;
+      }
+    }
+
+    &.profile-image {
+      display: flex;
+      flex-direction: column;
+
+      p {
+        width: 100%;
+        display: block;
+      
+        color: ${colors.tertiaryColor};
+        font-size: 1.2rem;
+        text-align: center;
+      }
+
+      label {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        div {
+          display: block;
+          width: 8rem;
+          height: 8rem;
+          position: relative;
+          left: 50%;
+          transform: translateX(-50%);
+          border-radius: 50%;
+
+          background-image: url(${profileIcon});
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+
+          &:hover {
+            cursor: pointer;
+          }
+        }
+      }
+
+      input{
+        display: none;
       }
     }
   }
