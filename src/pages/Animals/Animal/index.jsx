@@ -1,5 +1,5 @@
 import chatIcon from '../../../assets/icons/icon-chat.svg';
-import dog from '../../../assets/dunga.png';
+// import dog from '../../../assets/dunga.png';
 
 import {
   AnimalContainer,
@@ -9,24 +9,24 @@ import {
 } from './style';
 import { Link } from 'react-router-dom';
 
-export function Animal() {
+export function Animal({image, name, age, size, characteristics, city, state}) {
   return(
     <AnimalContainer>
-      <img src={dog} alt="Foto do Dunga" />
+      <img src={image} alt="Foto do Dunga" />
       
       <AnimalInfosWrapper>
         <NameAndDetailsWrapper>
-          <h2>Dunga</h2>
+          <h2>{name}</h2>
 
           <div>
-            <span>2 anos</span>
-            <span>Porte pequeno</span>
-            <span>Calmo e educado</span>
+            <span>{age}</span>
+            <span>{size} porte</span>
+            <span>{characteristics}</span>
           </div>
         </NameAndDetailsWrapper>
 
         <LocationAndChatWrapper>
-          <span>Rio de Janeiro - RJ</span>
+          <span>{city} - {state}</span>
           <Link to='/mensagem'>
             <div>
               <img src={chatIcon} alt="Ícone chat" />
