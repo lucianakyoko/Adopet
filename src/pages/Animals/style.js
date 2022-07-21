@@ -11,7 +11,12 @@ export const AnimalsPageContainer = styled.div`
   gap: 3.2em;
 
   @media screen and (min-width: 700px) {
-    margin-top: 18rem;
+    margin-left: 4.8rem;
+    margin-bottom: 3.2rem;
+  }
+
+  @media screen and (min-width: 1000px) {
+    margin-bottom: 6rem;
   }
 `;
 
